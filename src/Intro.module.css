@@ -4,7 +4,9 @@
 }
 
 .intro {
-    background: var(--dark-violet);
+    /* background: var(--dark-violet); */
+    /* background-color: #01142A; */
+    background-image: linear-gradient(to bottom, #01142A, #00387B)
 }
 
 .intro_content {
@@ -66,7 +68,7 @@
 
 @media screen and (min-width: 1024px) {
     .intro {
-        background-color: var(--dark-violet);
+        background-image: linear-gradient(to bottom, #01142A, #00387B);
         padding-inline: var(--desktop-pad-i);
         margin-block-end: 9rem;
         display: flex;

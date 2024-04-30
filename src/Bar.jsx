@@ -16,10 +16,7 @@ const Bar = () => {
 
     return (
         <div className={styles.top_bar}>
-            <img 
-            src="images/logo.svg" 
-            alt="insure logo"
-            />
+            <div id="logo_name" style={{ fontWeight: "1000", textAlign: "center", fontSize: "calc(var(--fs) * 2)", lineHeight: "1", position: "relative"}}>NOVA</div>
             <button className={styles.menu_btn} onClick={(e) => {handleClick(e)}}>
             <img 
                 src={icon}

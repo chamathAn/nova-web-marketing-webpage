@@ -13,7 +13,14 @@
     border: 0;
     cursor: pointer;
 }
-
+#logo_name{
+    font-family: var(--ff-display);
+    font-weight: 400;
+    text-align: center;
+    font-size: calc(var(--fs) * 10.5);
+    line-height: 1;
+    position: relative;
+}
 .open {
     padding: var(--mobile-pad-b) var(--mobile-pad-i);
     height: calc(100vh - var(--top-bar-height));

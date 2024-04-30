@@ -20,27 +20,27 @@ const Features = () => {
 
     return (
         <section className={styles.features}>
-            <h2 className={styles.title}>We're different</h2>
+            <h2 className={styles.title}>Features</h2>
             <div className={styles.wrapper}>
                 <IconTitleText 
                     icon={"images/icon-snappy-process.svg"}
-                    title={"Snappy Process"}
+                    title={"Sturectured Note"}
                     text={
-                        "Our application process can be completed in minutes. Don't get stuck filling in tedious forms."
+                        "The note where all content of the video order into very structed format."
                     }
                 />
                 <IconTitleText 
                     icon={"images/icon-affordable-prices.svg"}
-                    title={"Affordable Prices"}
+                    title={"Cue Questions"}
                     text={
-                        "We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible."
+                        "Application will geneate question to cue the content of the video and to measure your understanding."
                     }
                 />
                 <IconTitleText 
                     icon={"images/icon-people-first.svg"}
-                    title={"People First"}
+                    title={"Summary"}
                     text={
-                        "Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it."
+                        "In this section, you will get a concise summary of the content of the video. This section will depict the overall content of the video."
                     }
                 />
             </div>

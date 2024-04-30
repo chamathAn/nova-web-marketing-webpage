@@ -10,11 +10,17 @@ function App() {
     <>
       <header>
         <Bar />
+        <div id="id">
         <Intro />
+        </div>
       </header>
       <main>
+        <div id="features">
         <Features />
+        </div>
+        <div id="work">
         <Findout />
+        </div>
       </main>
       <Footer />
     </>

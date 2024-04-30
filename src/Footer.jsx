@@ -46,11 +46,7 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div className={styles.head}>
-                <img 
-                    src="images/logo.svg" 
-                    alt="insure logo"
-                    className={styles.logo} 
-                />
+            <div id="logo_name" style={{ fontWeight: "1000", textAlign: "center", fontSize: "calc(var(--fs) * 2)", lineHeight: "1", position: "relative"}}>NOVA</div>
                 <div className={styles.wrapper}>
                     <SocialIcon name={"facebook"}/>
                     <SocialIcon name={"twitter"}/>

@@ -1,4 +1,5 @@
 import styles from "./Nav.module.css"
+import { Link } from "react-scroll"
 
 const Nav = () => {
     
@@ -24,9 +25,13 @@ const Nav = () => {
   return (
     <nav className={styles.nav}>
         <ul className={styles.list}>
-            {listOptions}
+        <li > <Link to="id" className={styles.option}>Home</Link> </li>
+            <li > <Link to="features" className={styles.option}>Features</Link> </li>
+            <li > <Link to="work" className={styles.option}>How it works</Link> </li>
         </ul>
-        <button className={styles.view_plans_btn_bar}>View plans</button>
+        <a href="https://nova-web-app.vercel.app">
+        <button className={styles.view_plans_btn_bar}>Go to</button>
+        </a>
     </nav>
   )
 }
