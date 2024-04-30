@@ -6,11 +6,14 @@
     align-items: center;
     position: relative;
     z-index: 1;
+    background-color: #181414;
+    color: #f3f3f3;
 }
 
 .menu_btn {
     padding: 0;
     border: 0;
+    background-color: #f3f3f3;
     cursor: pointer;
 }
 #logo_name{

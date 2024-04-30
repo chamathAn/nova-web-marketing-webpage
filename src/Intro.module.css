@@ -1,4 +1,5 @@
 .intro_img {
+    z-index: 1;
     width: fit-content;
     margin-inline: auto;
 }
@@ -6,7 +7,7 @@
 .intro {
     /* background: var(--dark-violet); */
     /* background-color: #01142A; */
-    background-image: linear-gradient(to bottom, #01142A, #00387B)
+    background-image: linear-gradient(to bottom, #040D12, #00142A, #00387B)
 }
 
 .intro_content {
@@ -68,7 +69,9 @@
 
 @media screen and (min-width: 1024px) {
     .intro {
-        background-image: linear-gradient(to bottom, #01142A, #00387B);
+        background-image: linear-gradient(to bottom, #040D12, #00142A, #00387B );
+        background-position: 50% 100%;
+  background-repeat: no-repeat;
         padding-inline: var(--desktop-pad-i);
         margin-block-end: 9rem;
         display: flex;
@@ -103,6 +106,7 @@
     }
 
     .intro_content::after {
+        z-index: -1;
         background: 
             url("/images/bg-pattern-intro-left-desktop.svg") 
             no-repeat
@@ -112,7 +116,7 @@
 
     .title {
         font-family: var(--ff-display);
-        font-size: calc(var(--fs) * 4.25);
+        font-size: calc(var(--fs) * 3.25);
         padding-right: 3rem;
     }
 

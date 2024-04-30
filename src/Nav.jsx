@@ -30,7 +30,7 @@ const Nav = () => {
             <li > <Link to="work" className={styles.option}>How it works</Link> </li>
         </ul>
         <a href="https://nova-web-app.vercel.app">
-        <button className={styles.view_plans_btn_bar}>Go to</button>
+        <button className={styles.view_plans_btn_bar}>Get Started</button>
         </a>
     </nav>
   )
