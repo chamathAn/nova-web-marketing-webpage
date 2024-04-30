@@ -7,6 +7,7 @@
     background-image: linear-gradient(to bottom, #01142A, #00387B);
     color: white;
     position: relative;
+    border-radius: 20px;
 }
 
 .findout::before {

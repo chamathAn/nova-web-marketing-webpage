@@ -1,43 +1,11 @@
 .footer {
     padding: calc(var(--mobile-pad-b) * 4) var(--mobile-pad-i);
-    background-color: var(--very-light-gray);
+    background-color: #282424;
     display: grid;
+    align-items: center;
     justify-items: center;
     row-gap: 2.25rem;
     position: relative;
-}
-
-.footer::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: 
-        url("/images/bg-pattern-footer-mobile.svg")
-        no-repeat
-        top left;
-    pointer-events: none;
-}
-
-.head {
-    display: grid;
-    justify-items: center;
-    row-gap: 2rem;
-    position: relative;
-}
-
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-}
-
-hr {
-    width: 100%;
-    opacity: 30%;
 }
 
 .more {
@@ -49,6 +17,7 @@ hr {
     padding: 0;
     list-style: none;
     text-align: center;
+  margin: auto;
     text-transform: uppercase;
     font-weight: var(--fw-karla-bold);
     font-size: calc(var(--fs) / 1.05);
@@ -67,39 +36,17 @@ hr {
 
 .redirect {
     text-decoration: none;
-    color: var(--very-light-violet);
+    color: #f3f3f3;
     position: relative;
 }
 
 @media screen and (min-width: 1024px) {
     .footer {
-        padding: calc(var(--desktop-pad-b) * 3.5) var(--desktop-pad-i);
+        padding: calc(var(--desktop-pad-b) * 1.5) var(--desktop-pad-i);
         justify-items: unset;
         row-gap: 2.5rem;
     }
 
-    .footer::before {
-        background: 
-            url("/images/bg-pattern-footer-desktop.svg")
-            no-repeat
-            top left;
-    }
-
-    .head {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .social {
-        transition: filter .125s ease-in-out;
-    }
-
-    .social:hover {
-        filter: 
-            brightness(0)
-            invert(12%) sepia(6%) saturate(1505%) hue-rotate(227deg) brightness(93%) contrast(89%);
-    }
 
     .more {
         display: flex;
@@ -107,8 +54,8 @@ hr {
     }
 
     .more_list {
-        text-align: left;
-        flex: 1;
+        text-align: center;
+        flex: .4;
     }
     
     .redirect::after {

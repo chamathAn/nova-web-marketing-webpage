@@ -19,7 +19,9 @@ const Intro = () => {
           take care of the rest. Streamline your studying process with Nova and unlock
           the potential of your video resources like never before.
         </p>
+        <a href="https://nova-web-app.vercel.app">
         <button className={styles.view_plans_btn}>Nova App</button>
+        </a>
       </div>
     </div>
   );

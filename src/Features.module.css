@@ -42,6 +42,7 @@
 
 .icon {
     margin-block-end: .5rem;
+    align-self: center;
     margin-inline: auto;
 }
 
@@ -57,12 +58,13 @@
 @media screen and (min-width: 1024px) {
     .features {
         padding: var(--desktop-pad-b) var(--desktop-pad-i);
-        text-align: unset;
+        text-align: center;
     }
 
     .features::before {
-        margin-inline: unset;
-        left: var(--desktop-pad-i);
+        margin-inline: auto;
+        left: 0; 
+        right: 0; 
         top: -1rem;
     }
 
@@ -72,11 +74,12 @@
 
     .wrapper {
         flex-direction: row;
+        justify-content: center;
         gap: 2rem;
     }
 
     .icon {
         margin-block-end: 1rem;
-        margin-inline: unset;
+     
     }
 }

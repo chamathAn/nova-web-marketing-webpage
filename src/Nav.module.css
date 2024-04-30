@@ -1,7 +1,8 @@
 .nav {
     background: 
-    url("/images/bg-pattern-mobile-nav.svg") no-repeat bottom / contain,
+    /* url("/images/bg-pattern-mobile-nav.svg") no-repeat bottom / contain, */
     var(--very-dark-violet);
+    background: linear-gradient(to bottom, #040D12, #00142A, #00387B);
     position: absolute;
     top: 100%;
     left: 0;
@@ -66,7 +67,7 @@
     .list li {
         font-family: var(--ff-karla);
         font-weight: var(--fw-karla-bold);
-        color: var(--dark-grayish-violet);
+        color: #f3f3f3;
     }
 
     .list li,
@@ -77,21 +78,25 @@
 
     .view_plans_btn_bar {
         font-size: var(--fs);
-        color: var(--very-dark-violet);
-        border: 2px solid var(--very-dark-violet);
+        color: #f3f3f3;
+        background-color: #0084ff;
+        border: 1px solid transparent;
         padding: calc(var(--mobile-pad-b) / 3.75) var(--mobile-pad-i);
         margin: 0;
         cursor: pointer;
         width: unset;
+        border-radius: 50px;
     }
 
     .view_plans_btn_bar:hover {
-        background-color: var(--very-dark-violet);
-        color: white;
+        /* background-color: var(--very-dark-violet); */
+
+        opacity: .5;
     }
 
     .list li:hover {
-        color: var(--very-dark-violet);
+        cursor: pointer;
+        color: #0085ff;
     }
 
     .view_plans_btn_bar, a {
